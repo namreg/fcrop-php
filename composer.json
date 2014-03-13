@@ -1,0 +1,13 @@
+{
+    "name": "namreg/fcrop-php",
+    "description": "Php utility to crop images by focus point. Inspired from Node.js fcrop",
+    "authors": [
+        {
+            "name": "Igor German",
+            "email": "iggerman@yandex.ru"
+        }
+    ],
+    "require": {
+
+    }
+}
