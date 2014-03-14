@@ -1,13 +1,23 @@
 {
-    "name": "namreg/fcrop-php",
-    "description": "Php utility to crop images by focus point. Inspired from Node.js fcrop",
-    "authors": [
-        {
-            "name": "Igor German",
-            "email": "iggerman@yandex.ru"
-        }
-    ],
-    "require": {
-
-    }
+	"name": "namreg/fcrop-php",
+	"description": "Php utility to crop images by focus point. Inspired from Node.js fcrop",
+	"type": "library",
+	"homepage": "https://github.com/namreg/fcrop-php",
+	"keywords": ["Fcrop", "image resize", "imagick", "image crop", "thumbnails"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Igor German",
+			"email": "iggerman@yandex.ru"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"ext-imagick": "3.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"FcropPhp": ""
+		}
+	}
 }
