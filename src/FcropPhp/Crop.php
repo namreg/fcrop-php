@@ -36,12 +36,16 @@ class Crop {
 	const DEFAULT_QUALITY = 70;
 
 	/**
-	 * @var string Driver by mean image will be processed
+	 * Driver by means of image will be processed
+	 *
+	 * @var string
 	 */
 	private $driver;
 
 	/**
-	 * @var AImage Represents image object that will be processed
+	 * Represents image object that will be processed
+	 *
+	 * @var AImage
 	 */
 	private $image;
 
